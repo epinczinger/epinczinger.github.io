@@ -1,37 +1,73 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/epinczinger/epinczinger.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<h3 align="center">Portfolio</h3>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div align="center">
 
-### Markdown
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/epinczinger/epinczinger.github.io)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/epinczinger/epinczinger.github.io/issues)
+[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/epinczinger/epinczinger.github.io/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Built With
 
-1. Numbered
-2. List
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-**Bold** and _Italic_ and `Code` text
+## Live Demo
 
-[Link](url) and ![Image](src)
-```
+To see a preview of the actual project, check out the [Live Demo Link](https://epinczinger.github.io/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/epinczinger/epinczinger.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Getting Started
 
-### Support or Contact
+To get a local copy up and running follow these simple example steps.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Prerequisites
+To run the project smoothly, you must have the following installed on your machine:
+
+- Git
+- A web browser.
+
+### Setup
+You need to clone the project by running `https://github.com/epinczinger/epinczinger.github.io.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
+
+## Authors
+
+👤 **Umair Arshad**
+
+- Github: [@epinczinger](https://github.com/epinczinger)
+- Twitter: [@epinczinger](https://twitter.com/epinczinger)
+- Linkedin: [esteban-pinczinger](https://www.linkedin.com/in/esteban-pinczinger/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Start by:
+
+- Forking the project
+- Cloning the project to your local machine
+- `cd` into the project directory
+- Run `git checkout -b your-branch-name`
+- Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project inspired by Microverse
+
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
