@@ -1,11 +1,11 @@
-main {
+main, footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #;
 }
 body {
-    background-color: #EBEFF4;
+    background: rgb(235,239,244);
+background: linear-gradient(153deg, rgba(235,239,244,0.969625350140056) 75%, rgba(203,222,251,0.9528186274509804) 98%);
 }
 nav {
     color: #1E488F;
@@ -27,11 +27,16 @@ a {
 }
 
 .card-body {
-    background-color: #EBEFF4;
+    background-color: rgb(226, 234, 243);
 }
 
 .card-footer {
-    background-color: #cbdefb;
+    background-color: #bed5f6;
+    
+}
+.card-footer a {
+    font-weight: 600;
+
 }
 
 .card-title {
@@ -53,12 +58,22 @@ h1, h2, h3 {
 h1, h3 {
     color: rgb(17, 54, 117);
 }
-
-h2 {
-    color: #36B37F;
+nav {SS
+background: rgb(19,172,109);
+background: linear-gradient(0deg, rgba(19,172,109,1) 75%, rgba(18,141,90,1) 97%);
 }
 
-.aboutme {
+nav a {
+    font-weight: 600;
+}
+nav a:hover {text-decoration: none;
+}
+
+h2 {
+    color: #128D5A;
+}
+
+.aboutme, p {
     margin-top: 1.5em;
     font-family: 'Inter', sans-serif;
     font-size: large;
@@ -70,7 +85,7 @@ h3 {
     margin-top: 2em;
     margin-bottom: 1em;
 
-  text-decoration-color:#36B37F;
+  text-decoration-color:#128D5A;
 }
 
 iframe {
