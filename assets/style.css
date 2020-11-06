@@ -1,16 +1,19 @@
 html, body, main, footer {
   box-sizing: border-box;
 }
+
 main, footer {
-    max-width: 1200px;
+    max-width: 75em;
     margin-left: auto;
     margin-right: auto;
 }
+
 body {
     padding: 0;
     background: rgb(235,239,244);
-background: linear-gradient(153deg, rgba(235,239,244,0.969625350140056) 75%, rgba(203,222,251,0.9528186274509804) 98%);
+    background: linear-gradient(153deg, rgba(235,239,244,0.969625350140056) 75%, rgba(203,222,251,0.9528186274509804) 98%);
 }
+
 nav {
     color: #1E488F;
     background-color: #cbdefb;
@@ -21,13 +24,11 @@ a {
 }
 
 .navbar-toggler-icon.iccc {
-   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(30, 72, 143)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
-    
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(30, 72, 143)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");    
 }
 
 .card-footer .btn {
     background-color: #1E488F;
-
 }
 
 .card-body {
@@ -36,22 +37,20 @@ a {
 
 .card-footer {
     background-color: #bed5f6;
-    
 }
+
 .card-footer a {
     font-weight: 600;
-
 }
 
 .card-img-top{
-  width:100%;
-  height:auto;
+    width:100%;
+    height:auto;
 }
 
 .card-title {
-
-color: #1E488F;
-font-weight: 700;
+    color: #1E488F;
+    font-weight: 700;
 }
 
 .aboutme {
@@ -60,22 +59,24 @@ font-weight: 700;
 
 h1, h2, h3 {
     font-family: 'Inter', sans-serif;
-        font-weight: 600;
-
+    font-weight: 600;
 }
 
 h1, h3 {
     color: rgb(17, 54, 117);
 }
-nav {SS
-background: rgb(19,172,109);
-background: linear-gradient(0deg, rgba(19,172,109,1) 75%, rgba(18,141,90,1) 97%);
+
+nav {
+    background: rgb(19,172,109);
+    background: linear-gradient(0deg, rgba(19,172,109,1) 75%, rgba(18,141,90,1) 97%);
 }
 
 nav a {
     font-weight: 600;
 }
-nav a:hover {text-decoration: none;
+
+nav a:hover {
+    text-decoration: none;
 }
 
 h2 {
@@ -93,25 +94,21 @@ h3 {
     text-decoration: underline;
     margin-top: 2em;
     margin-bottom: 1em;
-
-  text-decoration-color:#128D5A;
+    text-decoration-color:#128D5A;
 }
 
 iframe {
-
-    min-width: 750px;
-    min-height: 800px;
+    min-width: 46em;
+    min-height: 50em;
 }
 
 .carousel-inner {
-    min-width: 600px;
-    min-height: 600px;
-    max-width: 700px;
-    max-height: 700px;
+    min-width: 36em;
+    min-height: 36em;
+    max-width: 42em;
+    max-height: 42em;
 }
 
 i {
-    font-size: xx-large;
-
-    
+    font-size: 2em;
 }
