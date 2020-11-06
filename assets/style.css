@@ -1,0 +1,82 @@
+main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #;
+}
+body {
+    background-color: #EBEFF4;
+}
+nav {
+    color: #1E488F;
+    background-color: #cbdefb;
+}
+
+a {
+    color: #172B4D ;
+}
+
+.navbar-toggler-icon.iccc {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(30, 72, 143)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    
+}
+
+.card-footer .btn {
+    background-color: #1E488F;
+
+}
+
+.card-body {
+    background-color: #EBEFF4;
+}
+
+.card-footer {
+    background-color: #cbdefb;
+}
+
+.card-title {
+
+color: #1E488F;
+font-weight: 700;
+}
+
+.aboutme {
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+        font-weight: 600;
+
+}
+
+h1, h3 {
+    color: rgb(17, 54, 117);
+}
+
+h2 {
+    color: #36B37F;
+}
+
+.aboutme {
+    margin-top: 1.5em;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+iframe {
+
+    min-width: 750px;
+    min-height: 800px;
+}
+
+.carousel-inner {
+    min-width: 600px;
+    min-height: 600px;
+    max-width: 700px;
+    max-height: 700px;
+}
