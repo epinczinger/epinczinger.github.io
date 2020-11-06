@@ -68,7 +68,7 @@ h1, h3 {
 
 nav {
     background: rgb(19,172,109);
-    background: linear-gradient(0deg, rgba(19,172,109,1) 75%, rgba(18,141,90,1) 97%);
+    background: linear-gradient(0deg, rgba(18,141,90,1) 5%, rgba(19,172,109,1) 100%);
 }
 
 nav a {
