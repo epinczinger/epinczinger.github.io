@@ -29,7 +29,7 @@
     <title>Esteban Pinczinger</title>
   </head>
 
-  <body>
+  <body class="">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">Esteban Pinczinger</a>
       <button
@@ -72,19 +72,20 @@
     </nav>
 
     <main class="container-fluid main">
-      <div class="row mx-5 my-3 justify-content-center">
-        
-        <h1 class="main-title ">Hi there! I'm Esteban.</h1><br>
-        </div>
-        <div class="row justify-content-center">
-        <h2 class="secondary-title">I'm a software developer.</h2>
-</div>
-<div class="row justify-content-center">
-        <p>
+      <div class="row justify-content-center">
+        <h1 class="main-title mx-5 mt-3">Hi there! I'm Esteban.</h1>
+        <br />
+      </div>
+      <div class="row justify-content-center">
+        <h2 class="secondary-title mx-5 my-2">I'm a software developer.</h2>
+      </div>
+      <div class="row justify-content-center">
+        <p class="mx-4">
           Maybe it's your lucky day, because I'm looking for a company t-shirt
           to put on and develop my skills
-        </p></div>
-      
+        </p>
+      </div>
+
       <div class="row justify-content-center">
         <a href="https://github.com/epinczinger" target="_blank" class="px-2"
           ><i class="fab fa-github"></i
@@ -98,13 +99,12 @@
         <a href="https://twitter.com/epinczinger" target="_blank" class="px-2"
           ><i class="fab fa-twitter"></i
         ></a>
-         <a
-            href="https://www.facebook.com/pedrito.pinczinger"
-            target="_blank"
-            class="px-2"
-            ><i class="fab fa-facebook-square"></i>
-          </a>
-        
+        <a
+          href="https://www.facebook.com/pedrito.pinczinger"
+          target="_blank"
+          class="px-2"
+          ><i class="fab fa-facebook-square"></i>
+        </a>
       </div>
 
       <div class="row mx-1 my-3">
@@ -192,8 +192,10 @@
           </a>
         </div>
       </div> -->
-      <div class="row m-3">
-        <div class="card-deck" name="projects">
+
+      <!-- cards lg -->
+      <div class="row my-3 d-none d-lg-block">
+        <div class="card-deck p-2" name="projects">
           <div class="card bg-light text-center text-center">
             <img
               class="card-img-top"
@@ -260,8 +262,8 @@
           </div>
         </div>
       </div>
-      <div class="row m-3">
-        <div class="card-deck">
+      <div class="row my-3 d-none d-lg-block">
+        <div class="card-deck p-2">
           <div class="card bg-light text-center">
             <img
               class="card-img-top"
@@ -303,8 +305,170 @@
               >
             </div>
           </div>
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/bs.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Backscraper - Ruby</h5>
+              <p class="card-text">
+                Backscraper was designed to search trough
+                https://www.backpackerjobboard.com.au/ to find your next job!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/Scraper"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- cards mobile -->
+      <div class="d-lg-none">
+        <div class="card-deck" name="projects">
+          <div class="card bg-light text-center text-center">
+            <img
+              class="card-img-top"
+              src="assets/sf.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Surfeature - Ruby on Rails</h5>
+              <p class="card-text">
+                Surfeature is a Social App created for sharing information about
+                surf conditions. Is a twitter-like application where Users have
+                to Log In in order to use it, and then are able to follow other
+                users, share opinions and like or dislike them.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/ror-capstone"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/ttt.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">TicTacToe - Ruby</h5>
+              <p class="card-text">
+                Traditional Tic Tac Toe game implented in Ruby
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/TicTacToe"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-none">
+        <div class="card-deck" name="projects">
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/bs.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Backscraper - Ruby</h5>
+              <p class="card-text">
+                Backscraper was designed to search trough
+                https://www.backpackerjobboard.com.au/ to find your next job!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/Scraper"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/op.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Opportunity - HTML/CSS</h5>
+              <p class="card-text">
+                Opportunity is a house rent website designed following a given
+                layout.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/capstone"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-none">
+        <div class="card-deck">
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/cc.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coding Challenges - Ruby / Javascript</h5>
+              <p class="card-text">
+                Collection of solved coding problems of different websites.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/coding-challenges"
+                class="btn btn-secondary"
+                >See Challenges</a
+              >
+            </div>
+          </div>
+          <div class="card bg-light text-center">
+            <img
+              class="card-img-top"
+              src="assets/bs.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Backscraper - Ruby</h5>
+              <p class="card-text">
+                Backscraper was designed to search trough
+                https://www.backpackerjobboard.com.au/ to find your next job!
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/epinczinger/Scraper"
+                class="btn btn-secondary"
+                >See Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About me  -->
       <div class="">
         <div class="row justify-content-center">
           <div class="d-block">
@@ -344,7 +508,7 @@
     <footer class="container-fluid" id="contact-me">
       <div class="row justify-content-center">
         <div class="d-block">
-          <h3 class="" >Contact Me</h3>
+          <h3 class="">Contact Me</h3>
         </div>
       </div>
       <div class="row justify-content-center">

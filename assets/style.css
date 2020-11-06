@@ -1,9 +1,13 @@
+html, body, main, footer {
+  box-sizing: border-box;
+}
 main, footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 body {
+    padding: 0;
     background: rgb(235,239,244);
 background: linear-gradient(153deg, rgba(235,239,244,0.969625350140056) 75%, rgba(203,222,251,0.9528186274509804) 98%);
 }
@@ -37,6 +41,11 @@ a {
 .card-footer a {
     font-weight: 600;
 
+}
+
+.card-img-top{
+  width:100%;
+  height:auto;
 }
 
 .card-title {
@@ -103,6 +112,6 @@ iframe {
 
 i {
     font-size: xx-large;
-    margin: 15px;
+
     
 }
