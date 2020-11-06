@@ -66,6 +66,11 @@ h2 {
 
 h3 {
     font-size: xx-large;
+    text-decoration: underline;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+  text-decoration-color:#36B37F;
 }
 
 iframe {
@@ -79,4 +84,10 @@ iframe {
     min-height: 600px;
     max-width: 700px;
     max-height: 700px;
+}
+
+i {
+    font-size: xx-large;
+    margin: 15px;
+    
 }
