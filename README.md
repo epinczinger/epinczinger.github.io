@@ -43,7 +43,6 @@ You need to clone the project by running `https://github.com/epinczinger/epinczi
 👤 **Umair Arshad**
 
 - Github: [@epinczinger](https://github.com/epinczinger)
-- Twitter: [@epinczinger](https://twitter.com/epinczinger)
 - Linkedin: [esteban-pinczinger](https://www.linkedin.com/in/esteban-pinczinger/)
 
 ## 🤝 Contributing
